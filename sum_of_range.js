@@ -9,6 +9,7 @@ const arr = range(1,10)
 console.log(arr)
 
 //-------------------------------------------------------------------
+
 function range1 (start,end){
     const arr =[]
     let sum=0
@@ -20,7 +21,9 @@ function range1 (start,end){
 }
 const sum = range1(1,10)
 console.log(sum)
+
 //-------------------------------------------------------------------
+
 function rangeByStep (start,end,step){
     const arr0 =[]
     for(let i=start ; i<=end; i+=step){
